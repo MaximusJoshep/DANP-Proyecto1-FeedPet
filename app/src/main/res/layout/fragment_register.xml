@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment">
+    android:background="@color/main_color">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/roundtop">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="205dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="@string/password"
+
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/signin"
+            android:textColor="#000000"
+
+            android:textSize="34sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="105dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="@string/email"
+            android:textColor="#000000"
+
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="145dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="205dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="@string/password"
+            android:textColor="#000000"
+
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/dni"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="245dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="305dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Codigo familiar"
+
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/codigo"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="345dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <CheckBox
+            android:id="@+id/recordar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="390dp"
+            android:text="@string/remember" />
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="440dp"
+
+
+            android:background="@drawable/buttonround"
+            android:text="@string/signup"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/inicioSesion"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+
+
+            android:layout_marginTop="340dp"
+            android:layout_marginBottom="59dp"
+            android:background="@drawable/buttonround"
+            android:text="@string/gotologin"
+            android:textColor="#000000" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

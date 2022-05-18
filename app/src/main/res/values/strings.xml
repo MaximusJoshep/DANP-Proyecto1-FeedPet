@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Feed Pet</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="remember">Recordar</string>
+    <string name="go">Adelante</string>
+    <string name="continuar">Continuar sin iniciar sesión</string>
+    <string name="cerrarsesion">Cerrar Sesión</string>
+
+    <string name="signin">Registrarse</string>
+    <string name="signup">Registrarme</string>
+    <string name="gotologin">Ir a inicio de Sesión</string>
+
+    <string name="yourvaccines">Tus Vacunas</string>
+    <string name="firstdosis">1RA Dosis</string>
+    <string name="seconddosis">2DA Dosis</string>
+
+    <string name="inform">Infórmate</string>
+    <string name="informtext">Información sobre los distintos tipos de vacunas e información de vacunación.</string>
+    <string name="inperu">En el Perú</string>
+    <string name="applied">Dosis Aplicadas</string>
+    <string name="mapminsa">Mapa segun MINSA</string>
+    <string name="vaccines">Vacunas</string>
+
+    <string name="principal">Principal</string>
+    <string name="mapa">Mapa</string>
+    <string name="informate">Informate</string>
+    <string name="calendario">Calendario</string>
+    <string name="noticias">Noticias</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
